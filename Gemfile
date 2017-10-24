@@ -41,6 +41,8 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'simple_form', '~> 3.5'
   gem 'bootstrap-sass', '~> 3.3'
+  gem 'devise', '~> 4.3'
+  gem 'bcrypt', '~> 3.1.11', :require => 'bcrypt'
 end
 
 group :development do
